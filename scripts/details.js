@@ -1,3 +1,4 @@
+
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
@@ -26,9 +27,10 @@ try{
                 <p class="lang-text">Language : ${json.language}</p>
                 <p class="rating-text">Rating : ${json.rating.average}</p>
                 <p class="duration-text">Runtime: ${json.runtime}minutes</p>
-                <p class="sescrb-text"><b>Description :</b><br>  
-                 ${json.summary}</p>
+                <p class="sescrb-text"><b>Description :  ${json.summary}</p>
              </div> 
+             <button class="play-btn">Play</button>
+             <button class="watch-later-btn">Watch later</button>
          
         </div>
         `;
