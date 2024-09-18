@@ -40,10 +40,11 @@ const renderList = (data, page) => {
 
 const data = await getData();
 
+
 const loadMoreBtn=document.querySelector(".load-more-btn");
 
 let currentPage=1;
- 
+
 loadMoreBtn.addEventListener("click",()=>{
   currentPage++;
   renderList(data,currentPage)

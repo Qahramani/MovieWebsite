@@ -48,7 +48,7 @@ align-items: center;
   -webkit-appearance: none;
   height: 15px;
   width: 15px;
-  background: url('close.png') no-repeat center;
+  background: url(assets/images/close.png) no-repeat center;
   background-size: cover;
   cursor: pointer;
 }
